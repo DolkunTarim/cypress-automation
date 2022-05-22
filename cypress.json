@@ -1,0 +1,13 @@
+{
+  "env": {
+    "CUBECART_QA_URL": "http://cubecartqa1.unitedcoderschool.com/admin_xrmx7f.php",
+    "CUBECART_QA_USERNAME":"testautomation1",
+    "CUBECART_QA_PASSWORD": "automation123!",
+    "CUBECART_PROD_URL": "http://cubecart.unitedcoderschool.com/ecommerce/admin_w4vqap.php",
+    "CUBECART_PROD_USERNAME": "testautomationprod1",
+    "CUBECART_PROD_PASSWORD": "automation123!"
+  },
+  "defaultCommandTimeout" : 8000
+
+
+}
