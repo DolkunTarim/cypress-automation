@@ -7,8 +7,9 @@
     "CUBECART_PROD_USERNAME": "testautomationprod1",
     "CUBECART_PROD_PASSWORD": "automation123!"
   },
+  "URL": "https://demo.cubecart.com/cc6/admin_5xArPd.php",
+  "USERNAME":"cubecart",
+  "PASSWORD": "cubecart",
   "defaultCommandTimeout" : 8000,
   "testFiles": "**/*.{feature,features}"
-
-
 }
