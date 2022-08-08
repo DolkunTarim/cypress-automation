@@ -8,7 +8,23 @@ Feature: Google Main Page
     Then I see "Google" in the title
 
   @focus
-  Scenario: Search a keyword
+  Scenario Outline: Search a keyword
     Given I open Google page
-    When I type a "Java" in the search box and press enter
+    When I type a "<search word>" in the search box and press enter
     Then I see a search result
+    Examples:
+      | search word |
+    |Java         |
+    |Python       |
+    |Javascript   |
+
+
+  Scenario Outline: Search another word
+    Given I open Google page
+    When I type "<cities>" in the search box and press enter button
+    Then I see a search result
+    Examples:
+      | cities |
+    |New York|
+    |Washington DC|
+    |Istanbul Turkey|
