@@ -6,7 +6,7 @@ Feature: Customer admin features
     And the admin user type in username and password and clicks login button
     Then the admin user should see a dashboard
 
-Scenario: admin user should be able to add a customer
+  Scenario: admin user should be able to add a customer
   Given admin has a new customer
   When admin fill out the new customer form
   Then a new customer should be created
